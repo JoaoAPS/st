@@ -153,7 +153,7 @@ unsigned int defaultrcs = 259;
  * 6: Bar ("|")
  * 7: Snowman ("☃")
  */
-static unsigned int cursorshape = 2;
+static unsigned int cursorshape = 6;
 
 /*
  * Default columns and rows numbers
@@ -562,5 +562,5 @@ static uint selmasks[] = {
 static char ascii_printable[] =
 	" !\"#$%&'()*+,-./0123456789:;<=>?"
 	"@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_"
-	"`abcdefghijklmnopqrstuvwxyz{|}~"
-	"áéóúíàãõâêôçÁÉÓÍÚÀÃÕÂÊÔÇ";
+	"`abcdefghijklmnopqrstuvwxyz{|}~";
+	//"áéóúíàãõâêôçÁÉÓÍÚÀÃÕÂÊÔÇ";
