@@ -112,23 +112,23 @@ float alpha = 0.9;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	"##282828", // 0
-	"##cc241d", // 1
-	"##879a12", // 2
-	"##d79921", // 3
-	"##3f678f", // 4
-	"##b16286", // 5
-	"##689d6a", // 6
-	"##a89984", // 7
-	"##928374", // 8
-	"##e71616", // 9  - Broken Symbolic link
-	"##76bb1d", // 10 - Executables
-	"##fabd2f", // 11
-	"##1397a0", // 12 - Directories
-	"##d3869b", // 13
-	"##e99319", // 14 - Symbolic Link
-	"##ebdbb2", // 15
-	"##0d89db", // 16
+	"#282828", // 0
+	"#cc241d", // 1
+	"#879a12", // 2
+	"#d79921", // 3
+	"#3f678f", // 4
+	"#b16286", // 5
+	"#689d6a", // 6
+	"#a89984", // 7
+	"#928374", // 8
+	"#e71616", // 9  - Broken Symbolic link
+	"#76bb1d", // 10 - Executables
+	"#fabd2f", // 11
+	"#1397a0", // 12 - Directories
+	"#d3869b", // 13
+	"#e99319", // 14 - Symbolic Link
+	"#ebdbb2", // 15
+	"#0d89db", // 16
 	[255] = 0,
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#282828",   /* 256 -> bg */
